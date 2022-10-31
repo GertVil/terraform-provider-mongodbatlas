@@ -88,7 +88,7 @@ Additional values based on Type
 Third-Party Integration Settings can be imported using project ID and the integration type, in the format `project_id`-`type`, e.g.
 
 ```
-$ terraform import mongodbatlas_database_user.my_user 1112222b3bf99403840e8934-OPS_GENIE
+$ terraform import mongodbatlas_third_party_integration.my_integration 1112222b3bf99403840e8934-OPS_GENIE
 ```
 
 See [MongoDB Atlas API](https://docs.atlas.mongodb.com/reference/api/third-party-integration-settings-create/) Documentation for more information.
